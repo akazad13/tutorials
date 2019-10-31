@@ -6,4 +6,5 @@ Angular is a TypeScript-based open-source web application framework led by the A
 First, we need to install node.js pakage manager from [here]([https://nodejs.org/en/](https://nodejs.org/en/)). then,
 
 `npm i -g @angular/cli` :  Install angular cli globally.
+
 `ng new app-name`: Create a new app. 
