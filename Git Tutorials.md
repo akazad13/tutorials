@@ -33,3 +33,18 @@ If we want to save the working copy of our code, we use stash
 | `git stash drop n` | Drop nth stash of the list |
 | `git stash pop n | Apply nth stash of the list and delete the stash|
 | `git stash clear` | Clear all the stashes|
+
+
+#### How to establish connection between remote repository (github)
+
+| Command | Description |
+|---------|-------------|
+|`git remote add origin link-of-repository` | Establishing connection between local repository and a remote repository|
+|`git remote` | Checking connection |
+|`git remote -v`| Checking connection|
+|`git push -u origin master`| Push branches to GitHub:| 
+|`git branch -r`| How to see the connection between the local and the remote branch| 
+|`git clone + link`| Clone or download| 
+|`git fetch`, `git checkout origin/master`, `git merge origin/master`| **Download** code |
+|`git pull`|Sing step: **download** code|
+|`git remote rm name-of-repository`| Deleting repository |
