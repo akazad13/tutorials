@@ -20,8 +20,10 @@ Git is a free and open source distributed version control system designed to han
 | `git merge (name of branch to be merged)` | Merge branches |
 | `git branch -D (name of branch to be deleted)` | Delete a branch |
 | `git merge --squash branch-name` | Get only the final changed info from branch to master| 
+
 #### Stash
 If we want to save the working copy of our code, we use stash
+
 | Command | Description|
 |-----------| ---------|
 | `git stash` | Create stash and clean the code|
