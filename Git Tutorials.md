@@ -1,4 +1,3 @@
-
 ## Welcome to Git!
 #### What is git?
 Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency ([!]([https://git-scm.com/](https://git-scm.com/))).
@@ -10,6 +9,13 @@ Git is a free and open source distributed version control system designed to han
 | `git status`   | Check the current status of tree  |
 | `git add .`    | Add all the changes file to the staging ( allow git to track those file) |
 | `git add {fileName}` | Add specific file to the staging |
-| `git commit -m'Message` | commit stages changes |
+| `git commit -m'Message'` | commit stages changes |
 | `git checkout commitNo` | To go to certain commit to see changes |
 | `git reset --hard commitNo` | To reset to certain commit |
+| `git checkout -- .` | To reset all unstaged changes |
+| `git branch` | check branches |
+| `git checkout -b branch-name` | Create a new branch |
+| `git log` | See Git log of all branches|
+| `git checkout master` | Change to (**master**) branch |
+| `git merge (name of branch to be merged)` | Merge branches |
+| `git branch -D (name of branch to be deleted)` | Delete a branch |
