@@ -26,3 +26,14 @@ This is the details procedure of preparing project and necessary extension for M
 In the Command Prompt:
 - `dotnet -h` :  Get help with dotnet command
 - `dotnet new webapi -n NameOfTheProject` : To create a new project
+- `dotnet run`: Run the API
+- `dotnet watch run`: Run and watch continuous changes of the API files
+- `dotnet tool install --globally dotnet-ef`: To install entity framework SDKs
+- `dotnet-ef -h`: help related entity framework command
+- `dotnet ef migrations add 'comment'`: create database migration ( need design package)
+- `dotnet ef database update`: Apply migration to database. 
+
+#### Required Packages in .NET 3.1 ( use NuGet package manager )
+- Microsoft.EntityFrameworkCore for DbContext
+- Microsoft.EntityFrameworkCore.Sqlite for DB
+- Microsoft.EntityFrameworkCore.Design
