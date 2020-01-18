@@ -37,3 +37,5 @@ In the Command Prompt:
 - Microsoft.EntityFrameworkCore for DbContext
 - Microsoft.EntityFrameworkCore.Sqlite for DB
 - Microsoft.EntityFrameworkCore.Design
+
+![Start.cs](https://akazad13.github.io/images/adding-dbcontext.png)
