@@ -37,5 +37,6 @@ In the Command Prompt:
 - Microsoft.EntityFrameworkCore for DbContext
 - Microsoft.EntityFrameworkCore.Sqlite for DB
 - Microsoft.EntityFrameworkCore.Design
-
+![csproj.cs](https://akazad13.github.io/images/csproj.png)
+- adding cors policy
 ![Start.cs](https://akazad13.github.io/images/adding-dbcontext.png)
