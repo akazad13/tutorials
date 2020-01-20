@@ -37,9 +37,16 @@ In the Command Prompt:
 - Microsoft.EntityFrameworkCore for DbContext
 - Microsoft.EntityFrameworkCore.Sqlite for DB
 - Microsoft.EntityFrameworkCore.Design
+- Microsoft.IdentityModel.Tokens
+- System.IdentityModel.Tokens.Jwt
+- Microsoft.AspNetCore.Authentication.JwtBearer
 
 ![csproj.cs](https://akazad13.github.io/images/csproj.png)
 
 - adding cors policy
 
 ![Start.cs](https://akazad13.github.io/images/adding-dbcontext.png)
+
+- Adding Authentication controller and authorization middleware
+
+![Authentication_Authorization](https://akazad13.github.io/images/addding-authorization-service.png)
