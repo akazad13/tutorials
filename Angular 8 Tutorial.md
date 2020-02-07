@@ -25,3 +25,10 @@ First, we need to install node.js pakage manager from [here]([https://nodejs.org
 `npm i -g @angular/cli` :  Install angular cli globally.
 
 `ng new app-name`: Create a new app. 
+
+`ng serve`: To start the server
+
+####
+Installing Bootstrap
+
+`npm i bootstrap --save`, Then add the directory 'node_modules/bootstrap/dist/css/bootstrap.min.css' to style.css file
