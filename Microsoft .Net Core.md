@@ -8,7 +8,7 @@ This is the details procedure of preparing project and necessary extension for M
 - [NodeJs](https://nodejs.org/en/)
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Postman](https://www.getpostman.com/)
-- [SQLite](https://www.sqlite.org/index.html)
+- [SQLite](https://sqlitebrowser.org/)
 #### VSCode Extensions
 - C# by Microsoft
 - C# Extensions by jchannon
