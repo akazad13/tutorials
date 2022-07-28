@@ -41,12 +41,12 @@ In the Command Prompt:
 - System.IdentityModel.Tokens.Jwt
 - Microsoft.AspNetCore.Authentication.JwtBearer
 
-![csproj.cs](https://akazad13.github.io/images/csproj.png)
+![csproj.cs](https://akazad13.github.io/pics/csproj.png)
 
 - adding cors policy
 
-![Start.cs](https://akazad13.github.io/images/adding-dbcontext.png)
+![Start.cs](https://akazad13.github.io/pics/adding-dbcontext.png)
 
 - Adding Authentication controller and authorization middleware
 
-![Authentication_Authorization](https://akazad13.github.io/images/addding-authorization-service.png)
+![Authentication_Authorization](https://akazad13.github.io/pics/addding-authorization-service.png)
