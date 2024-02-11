@@ -31,7 +31,7 @@ If we want to save the working copy of our code, we use stash
 | `git stash apply n` | Apply nth stash of the list|
 | `git stash push -m"Message"`| Create stash with message|
 | `git stash drop n` | Drop nth stash of the list |
-| `git stash pop n | Apply nth stash of the list and delete the stash|
+| `git stash pop n` | Apply nth stash of the list and delete the stash|
 | `git stash clear` | Clear all the stashes|
 
 
