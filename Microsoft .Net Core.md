@@ -1,6 +1,6 @@
 # Microsoft .Net Core 3.1 Web API
 
-This is the details procedure of preparing project and necessary extension for Microsoft .Net Core 3.1 Web API 
+This is the details procedure for preparing a project and necessary extension for Microsoft .Net Core 3.1 Web API 
 
 
 ## Developing Environment Setup
@@ -31,7 +31,7 @@ In the Command Prompt:
 - `dotnet tool install --globally dotnet-ef`: To install entity framework SDKs
 - `dotnet-ef -h`: help related entity framework command
 - `dotnet ef migrations add 'comment'`: create database migration ( need design package)
-- `dotnet ef database update`: Apply migration to database. 
+- `dotnet ef database update`: Apply migration to the database. 
 
 #### Required Packages in .NET 3.1 ( use NuGet package manager )
 - Microsoft.EntityFrameworkCore for DbContext
@@ -41,12 +41,13 @@ In the Command Prompt:
 - System.IdentityModel.Tokens.Jwt
 - Microsoft.AspNetCore.Authentication.JwtBearer
 
-![csproj.cs](https://akazad13.github.io/pics/csproj.png)
+![csproj](https://github.com/akazad13/tutorials/assets/16265339/de85e262-f41e-4451-8290-6f87c2a77f5b)
 
-- adding cors policy
+- adding Cors policy
 
-![Start.cs](https://akazad13.github.io/pics/adding-dbcontext.png)
+![adding-dbcontext](https://github.com/akazad13/tutorials/assets/16265339/0dd9618e-3937-42b4-9845-7f99d0aa4a15)
 
 - Adding Authentication controller and authorization middleware
 
-![Authentication_Authorization](https://akazad13.github.io/pics/addding-authorization-service.png)
+![addding-authorization-service](https://github.com/akazad13/tutorials/assets/16265339/535f3319-ad7a-4902-b1a2-d06a3941fdb1)
+
